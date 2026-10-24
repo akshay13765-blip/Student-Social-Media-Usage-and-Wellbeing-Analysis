@@ -6,7 +6,7 @@ The question I wanted to answer: **how does daily social media use relate to stu
 
 ## Preview
 
-![Executive Overview](screenshots/01-executive-overview.png)
+![Executive Overview](Screenshots/01_Executive_overview.png)
 
 The dashboard has 6 pages:
 
@@ -19,13 +19,13 @@ The dashboard has 6 pages:
 | 5. Interactive Story View | Buttons to switch between a gender view and an academic level view |
 | 6. Student Profile | A drill-through page with the details of one student |
 
-You can find all the screenshots in the `screenshots` folder.
+You can find all the screenshots in the `Screenshots` folder.
 
 ## About the data
 
 - 705 students, aged 18 to 24, from 110 countries (353 female, 352 male)
 - By level: 353 undergraduate, 325 graduate, 27 high school
-- The Excel file `data/Students Social Media Addiction.xlsx` has two sheets:
+- The Excel file `Data/Students Social Media Addiction.xlsx` has two sheets:
   - **Student_Details**: age, gender, academic level, country, sleep hours, mental health score, relationship status, conflicts over social media, addicted score
   - **Platform_Details**: daily usage hours, most used platform, and whether it affects academic performance (Yes/No)
 - I linked the two tables 1:1 using `Student_ID`.
@@ -80,8 +80,8 @@ These are ideas based on the patterns above, not proven results.
 ## How to open it
 
 1. Install Power BI Desktop (it is free).
-2. Download this repo and open `Social_Media_Addiction_GitHub.pbix`.
-3. If Power BI can't find the data, go to **Transform data > Data source settings > Change source** and pick `data/Students Social Media Addiction.xlsx`.
+2. Download this repo and open `Social media addiction_github.pbix`.
+3. If Power BI can't find the data, go to **Transform data > Data source settings > Change source** and pick `Data/Students Social Media Addiction.xlsx`.
 
 ## Tools used
 
